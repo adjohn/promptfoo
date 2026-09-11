@@ -6,24 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.123.1](https://github.com/promptfoo/promptfoo/compare/0.123.0...0.123.1) (2026-09-11)
 
-
 ### Features
 
-* **providers:** update Gemini tools and media support ([#10172](https://github.com/promptfoo/promptfoo/issues/10172)) ([627bdd0](https://github.com/promptfoo/promptfoo/commit/627bdd0cb70081be0c6c6583448dbf39127a0c70))
-
+- **providers:** update Gemini tools and media support ([#10172](https://github.com/promptfoo/promptfoo/issues/10172)) ([627bdd0](https://github.com/promptfoo/promptfoo/commit/627bdd0cb70081be0c6c6583448dbf39127a0c70))
 
 ### Bug Fixes
 
-* **assertions:** bound embedded tool call parsing ([#10877](https://github.com/promptfoo/promptfoo/issues/10877)) ([78202a3](https://github.com/promptfoo/promptfoo/commit/78202a3a785655ef639658b0c0318daf628da2e5))
-* **assertions:** bound tool-call parser state ([#10887](https://github.com/promptfoo/promptfoo/issues/10887)) ([15290b4](https://github.com/promptfoo/promptfoo/commit/15290b4cd14392fbb6b12eb39c73c6663734cc4d))
-* **cli:** handle large values during result export ([#10884](https://github.com/promptfoo/promptfoo/issues/10884)) ([be798f4](https://github.com/promptfoo/promptfoo/commit/be798f4d30fc04c82c2e59ee1ff4eb6e9c0df1a3))
-* **cli:** preserve in-memory results for extensions ([#10885](https://github.com/promptfoo/promptfoo/issues/10885)) ([60483d9](https://github.com/promptfoo/promptfoo/commit/60483d94592c6fd58f5f91f7b9eaa19938e40ee6))
-* **deps:** update opentelemetry ([#10886](https://github.com/promptfoo/promptfoo/issues/10886)) ([280bc5e](https://github.com/promptfoo/promptfoo/commit/280bc5ef72c0e79aa6ed160bd7699a74bd0f035d))
-* **eval:** keep concurrent derived metrics consistent ([#10873](https://github.com/promptfoo/promptfoo/issues/10873)) ([2a3a3bd](https://github.com/promptfoo/promptfoo/commit/2a3a3bd973f293ae0f7ccc75257672eecf6067be))
-* **providers:** forward Snowflake provider configuration ([#10878](https://github.com/promptfoo/promptfoo/issues/10878)) ([7d0bacd](https://github.com/promptfoo/promptfoo/commit/7d0bacde37051ff78ae78a2d7a6d27a5c66850f1))
-* **providers:** honor prompt Gemini tool policy over passthrough ([#10890](https://github.com/promptfoo/promptfoo/issues/10890)) ([2fd7add](https://github.com/promptfoo/promptfoo/commit/2fd7addd8ab3c27464293a83061f0c16cadf0835))
-* **providers:** stop clobbering resolved TogetherAI model params ([#10846](https://github.com/promptfoo/promptfoo/issues/10846)) ([783d71f](https://github.com/promptfoo/promptfoo/commit/783d71ff922d16c70d6b3cfadcd61c6fadae8d3f))
-* **providers:** stop leaking local config into request bodies ([#10845](https://github.com/promptfoo/promptfoo/issues/10845)) ([329b748](https://github.com/promptfoo/promptfoo/commit/329b748113d64d3b1bf88651de91a1dc036fe1ad))
+- **assertions:** bound embedded tool call parsing ([#10877](https://github.com/promptfoo/promptfoo/issues/10877)) ([78202a3](https://github.com/promptfoo/promptfoo/commit/78202a3a785655ef639658b0c0318daf628da2e5))
+- **assertions:** bound tool-call parser state ([#10887](https://github.com/promptfoo/promptfoo/issues/10887)) ([15290b4](https://github.com/promptfoo/promptfoo/commit/15290b4cd14392fbb6b12eb39c73c6663734cc4d))
+- **cli:** handle large values during result export ([#10884](https://github.com/promptfoo/promptfoo/issues/10884)) ([be798f4](https://github.com/promptfoo/promptfoo/commit/be798f4d30fc04c82c2e59ee1ff4eb6e9c0df1a3))
+- **cli:** preserve in-memory results for extensions ([#10885](https://github.com/promptfoo/promptfoo/issues/10885)) ([60483d9](https://github.com/promptfoo/promptfoo/commit/60483d94592c6fd58f5f91f7b9eaa19938e40ee6))
+- **deps:** update opentelemetry ([#10886](https://github.com/promptfoo/promptfoo/issues/10886)) ([280bc5e](https://github.com/promptfoo/promptfoo/commit/280bc5ef72c0e79aa6ed160bd7699a74bd0f035d))
+- **eval:** keep concurrent derived metrics consistent ([#10873](https://github.com/promptfoo/promptfoo/issues/10873)) ([2a3a3bd](https://github.com/promptfoo/promptfoo/commit/2a3a3bd973f293ae0f7ccc75257672eecf6067be))
+- **providers:** forward Snowflake provider configuration ([#10878](https://github.com/promptfoo/promptfoo/issues/10878)) ([7d0bacd](https://github.com/promptfoo/promptfoo/commit/7d0bacde37051ff78ae78a2d7a6d27a5c66850f1))
+- **providers:** honor prompt Gemini tool policy over passthrough ([#10890](https://github.com/promptfoo/promptfoo/issues/10890)) ([2fd7add](https://github.com/promptfoo/promptfoo/commit/2fd7addd8ab3c27464293a83061f0c16cadf0835))
+- **providers:** stop clobbering resolved TogetherAI model params ([#10846](https://github.com/promptfoo/promptfoo/issues/10846)) ([783d71f](https://github.com/promptfoo/promptfoo/commit/783d71ff922d16c70d6b3cfadcd61c6fadae8d3f))
+- **providers:** stop leaking local config into request bodies ([#10845](https://github.com/promptfoo/promptfoo/issues/10845)) ([329b748](https://github.com/promptfoo/promptfoo/commit/329b748113d64d3b1bf88651de91a1dc036fe1ad))
 
 ## [0.123.0](https://github.com/promptfoo/promptfoo/compare/0.122.2...0.123.0) (2026-09-10)
 
